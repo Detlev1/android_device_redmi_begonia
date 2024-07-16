@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64 \
-    libshim_beanpod.vendor \
+    #libshim_beanpod.vendor \
     libnetutils.vendor \
     libdumpstateutil.vendor
 
