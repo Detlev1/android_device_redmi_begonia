@@ -134,7 +134,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcurl.vendor \
-    libjsoncpp.vendor
+    libjsoncpp.vendor \
+    libsqlite.vendor
 
 # DT2W
 PRODUCT_PACKAGES += \
@@ -169,7 +170,6 @@ PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64 \
-    #libshim_beanpod.vendor \
     libnetutils.vendor \
     libdumpstateutil.vendor
 
