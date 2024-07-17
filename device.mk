@@ -460,5 +460,8 @@ PRODUCT_PACKAGES += \
 # Inherit vendor
 $(call inherit-product, vendor/redmi/begonia/begonia-vendor.mk)
 
+#LinkToWinodws
+$(call inherit-product, vendor/microsoft/packages.mk)
+
 #Sign build
 -include vendor/lineage-priv/keys/keys.mk
